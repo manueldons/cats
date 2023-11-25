@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://boredpedia.com/` + encodeURI(path as string)
+					`https://cats.boredpedia.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
